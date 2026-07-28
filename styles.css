@@ -235,10 +235,10 @@ img {
 }
 
 .card-note {
-  left: 13.87%;
-  top: 70.56%;
+  left: 11.87%;
+  top: 71.56%;
   font-family: var(--font-script);
-  font-size: 1.29cqw;
+  font-size: 1.5cqw;
 }
 
 .card-room {
@@ -293,7 +293,7 @@ img {
   .postcard--main {
     left: 50%;
     top: 50%;
-    width: 94.978241%;
+    width: 95%;
     height: auto;
     --postcard-transform: translate(-50%, -50%);
   }

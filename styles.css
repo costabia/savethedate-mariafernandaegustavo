@@ -198,7 +198,7 @@ img {
 }
 
 .card-title {
-  left: 12.62%;
+  left: 14.62%;
   top: 18.45%;
   font-family: var(--font-serif);
   font-size: 3.49cqw;
@@ -206,7 +206,7 @@ img {
 }
 
 .card-subtitle {
-  left: 15.08%;
+  left: 17.08%;
   top: 24.95%;
   font-family: var(--font-script);
   font-size: 1.29cqw;
@@ -226,7 +226,7 @@ img {
 }
 
 .card-date {
-  left: 11.26%;
+  left: 13.26%;
   top: 66.42%;
   font-family: var(--font-serif);
   font-size: 3cqw;
@@ -235,7 +235,7 @@ img {
 }
 
 .card-note {
-  left: 11.87%;
+  left: 13.87%;
   top: 71.56%;
   font-family: var(--font-script);
   font-size: 1.5cqw;
@@ -247,7 +247,7 @@ img {
   width: 21.71%;
   font-family: var(--font-script);
   font-size: 1.93cqw;
-  line-height: 1.7;
+  line-height: 1.7; 
   text-align: center;
 }
 
@@ -313,6 +313,14 @@ img {
     top: 51.5%;
     --postcard-transform: rotate(-4deg);
   }
+
+  .card-time {
+  left: 70.1%;
+  top: 75.3%;
+  font-family: var(--font-script);
+  font-size: 1.5cqw;
+}
+
 }
 
 @media (prefers-reduced-motion: reduce) {

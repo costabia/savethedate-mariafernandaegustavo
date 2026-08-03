@@ -108,178 +108,57 @@ img {
 .save-card {
   container-type: inline-size;
   overflow: hidden;
-  background: url("assets/postcard-main.png") center / 100% 100% no-repeat;
+  background: url("assets/fundocerto.png") center / 100% 100% no-repeat;
 }
 
-.card-text {
+.card-art {
   position: absolute;
-  margin: 0;
-  color: var(--color-ink);
-  font-weight: 400;
-  letter-spacing: 0;
-  white-space: nowrap;
   z-index: 2;
+  display: block;
+  height: auto;
+  max-width: none;
 }
 
-.text-cover {
+.card-art--left {
+  left: 7.8%;
+  top: 30%;
+  width: 42.5%;
+}
+
+.card-art--right {
+  right: 8%;
+  top: 43%;
+  width: 28%;
+}
+
+.reminder-button {
   position: absolute;
-  z-index: 1;
-
-}
-
-.text-cover--title {
-  left: 10.1%;
-  top: 17.1%;
-  width: 30.5%;
-  height: 8.4%;
-}
-
-.text-cover--subtitle {
-  left: 13.8%;
-  top: 24.3%;
-  width: 20.4%;
-  height: 3.4%;
-}
-
-.text-cover--names {
-  left: 7.2%;
-  top: 39.5%;
-  width: 40.4%;
-  height: 16.8%;
-}
-
-.text-cover--date {
-  left: 9.2%;
-  top: 65.2%;
-  width: 33.8%;
-  height: 7.8%;
-}
-
-.text-cover--note {
-  left: 12.5%;
-  top: 73.8%;
-  width: 25.2%;
-  height: 3.7%;
-}
-
-.text-cover--room {
-  left: 64.7%;
-  top: 47.7%;
-  width: 24%;
-  height: 5.5%;
-}
-
-.text-cover--club {
-  left: 56.1%;
-  top: 55.5%;
-  width: 39.8%;
-  height: 6.1%;
-}
-
-.text-cover--address {
-  left: 62.6%;
-  top: 79.4%;
-  width: 24.5%;
-  height: 2.5%;
-}
-
-.text-cover--city {
-  left: 67.1%;
-  top: 84.1%;
-  width: 15.6%;
-  height: 2.5%;
-}
-
-.text-cover--time {
-  left: 70.2%;
-  top: 87.4%;
-  width: 12.9%;
-  height: 4.1%;
-}
-
-.card-title {
-  left: 14.62%;
-  top: 18.45%;
-  font-family: var(--font-serif);
-  font-size: 3.49cqw;
-  line-height: 1.35;
-}
-
-.card-subtitle {
-  left: 17.08%;
-  top: 24.95%;
-  font-family: var(--font-script);
-  font-size: 1.29cqw;
+  left: 8.5%;
+  top: 69%;
+  z-index: 3;
+  padding: 0.7em 1.2em 0.6em;
+  border: 0.5px solid var(--color-ink);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--color-ink);
+  font-family: "Cormorant Garamond", Garamond, Georgia, serif;
+  font-size: 1cqw;
+  font-weight: 400;
   line-height: 1;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background-color 180ms ease, color 180ms ease;
 }
 
-.card-names {
-  left: 9.85%;
-  top: 41.81%;
-  width: 36.81%;
-  color: var(--color-script);
-  font-family: var(--font-script);
-  font-size: 2.65cqw;
-  line-height: 2;
-  text-align: center;
-  white-space: normal;
+.reminder-button:hover,
+.reminder-button:focus-visible {
+  background: var(--color-ink);
+  color: var(--color-paper);
 }
 
-.card-date {
-  left: 13.26%;
-  top: 66.42%;
-  font-family: var(--font-serif);
-  font-size: 3cqw;
-  line-height: 1.35;
-  background-color: transparent;
-}
-
-.card-note {
-  left: 13.87%;
-  top: 71.56%;
-  font-family: var(--font-script);
-  font-size: 1.5cqw;
-}
-
-.card-room {
-  left: 64%;
-  top: 48.55%;
-  width: 21.71%;
-  font-family: var(--font-script);
-  font-size: 1.93cqw;
-  line-height: 1.7; 
-  text-align: center;
-}
-
-.card-club {
-  left: 56.57%;
-  top: 56.65%;
-  width: 39.08%;
-  font-family: var(--font-script);
-  font-size: 1.99cqw;
-  line-height: 1.7;
-  text-align: center;
-}
-
-.card-address {
-  left: 65.54%;
-  top: 66%;
-  font-family: var(--font-serif);
-  font-size: 1.3cqw;
-}
-
-.card-city {
-  left: 71.2%;
-  top: 70.5%;
-  font-family: var(--font-serif);
-  font-size: 1.3cqw;
-}
-
-.card-time {
-  left: 70.1%;
-  top: 74.3%;
-  font-family: var(--font-script);
-  font-size: 1.5cqw;
+.reminder-button:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 3px;
 }
 
 @media (max-width: 767px) {
@@ -313,13 +192,6 @@ img {
     top: 51.5%;
     --postcard-transform: rotate(-4deg);
   }
-
-  .card-time {
-  left: 70.1%;
-  top: 75.3%;
-  font-family: var(--font-script);
-  font-size: 1.5cqw;
-}
 
 }
 

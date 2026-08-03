@@ -133,6 +133,7 @@ img {
 
 .reminder-button {
   position: absolute;
+  display: none;
   left: 8.5%;
   top: 71%;
   z-index: 3;
@@ -162,6 +163,10 @@ img {
 }
 
 @media (max-width: 767px) {
+
+  .reminder-button {
+    display: block;
+  }
 
   .card-art--left {
     left: 7.8%;

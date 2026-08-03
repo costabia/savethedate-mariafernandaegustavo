@@ -1,0 +1,17 @@
+{
+  "headers": [
+    {
+      "source": "/evento.ics",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/calendar; charset=utf-8"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline"
+        }
+      ]
+    }
+  ]
+}

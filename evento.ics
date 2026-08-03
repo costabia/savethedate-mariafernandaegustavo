@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Maria Fernanda e Gustavo//Save the Date//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Casamento de Maria Fernanda e Gustavo
+X-WR-TIMEZONE:America/Sao_Paulo
+BEGIN:VEVENT
+UID:save-the-date-maria-fernanda-gustavo-20270410@invite
+DTSTAMP:20260803T120000Z
+DTSTART;TZID=America/Sao_Paulo:20270410T143000
+DTEND;TZID=America/Sao_Paulo:20270410T173000
+SUMMARY:Casamento de Maria Fernanda e Gustavo
+LOCATION:Salão Verde\, Clube Curitibano\, Av. Pres. Getúlio Vargas\, 2857\, Curitiba - PR
+DESCRIPTION:Convite oficial em breve.
+END:VEVENT
+END:VCALENDAR
